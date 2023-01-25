@@ -74,6 +74,6 @@ $(document).ready(function () {
 
 $(function() {
     $("#navigate-button").click(function() {
-        window.location.href = `ar-weather.html?source=${latitude};${longitude}&dest=${destination.lat};${destination.lng}`;
+        window.location.href = `ar-weather.html?dest=${destination.lat};${destination.lng}`;
     });
 });
